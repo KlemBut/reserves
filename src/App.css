@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+.hiddenCard {
+  display: none;
+}
+
+.dayWrap {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+.tableWrap {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.reserve{
+ position: fixed;
+ top: 500px;
+ left: 700px;
+}
+.owner{
+ position: fixed;
+ top: 400px;
+ left: 600px;
+}
